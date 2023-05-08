@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    box-sizing: border-box; 
+}
+
+.cabecalho {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 10px;
+}
+
+.cabecalho-menu-link {
+    font-size: 1.7rem; 
+}
