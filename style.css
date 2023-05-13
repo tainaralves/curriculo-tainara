@@ -15,43 +15,82 @@ body{
 }
 
 .cabecalho {
-    position: absolute;
-    width: 1042px;
+    position: fixed;
     height: 43px;
-    left: 279px;
-    top: 33px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(90deg, #460C68, #7F167F);
+    color:  #F6F6F6;
+    z-index: 1;
 }
+
 .cabecalho-menu {
-    display: flex;
-    gap: 10px;
+    text-align: center;
+    position: relative;
 }
 
-.cabecalho-menu-link {
+.cabecalho-menu li {
+    display: inline-block;
+    margin: 16px 10px;
+}
+
+.cabecalho-menu li:not(:last-child):after {
+    content: "•";
+    margin-left: 24px;
+}
+
+.cabecalho-menu li a {
+    text-decoration: none;
+    color: #F6F6F6;
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    color: #000000;
-    line-height: 36px;
 }
 
-.apresentacao {
-    margin-top: 86px;
+.cabecalho-menu li a:hover{
+    color: #F56EB3;
 }
 
-.apresentacao-conteudo ul li {
+.apresentacao{
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    justify-content:space-between;
 }
 
-.apresentacao-conteudo ul li img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+.apresentacao-conteudo{
+    display: flex;
+    flex-direction: column;
 }
 
-.apresentacao-conteudo ul li address {
-    margin: 0;
+.apresentacao-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    }
+
+.pessoa {
+    display: inline-block;
+    position: absolute;
 }
+
+.pessoa h1 {
+    font-size: 64px;
+    font-weight: bolder;
+    margin-top: 64px;
+}
+
+.pessoa h2 {
+    margin: 16px 0;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.foto-tainara{
+    width: 260px;
+    height: 269px;
+    border-radius: 50%;
+    border: 4px solid #7F167F;
+}
+
 
