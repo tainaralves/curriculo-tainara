@@ -52,6 +52,7 @@ main {
     padding: 48px 0;  
     color: #460C68;
     font-family: 'Inter', sans-serif;
+    padding: 4% 8%;
 
 }
 
@@ -105,7 +106,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4% 8%;
+    
 }
 
 .foto-sobre-mim {
@@ -115,7 +116,9 @@ main {
 
 .titulo {
     font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 6%;
 }
 
 .sobre-mim-apresentacao {
@@ -123,10 +126,26 @@ main {
     flex-direction: column;
     padding-left: 35px;
     gap: 16px;
-    max-width: 540px;
+    max-width: 600px;
     
 }
 .negrito {
     font-weight:bold;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container-apresentacao {
+    background-color: #F6F6F6;
+    box-shadow: 1px 1px 16px #7F167F;
+    padding: 16px;
+    border-radius: 8px;
+    width: 480px;
+    height: 110px;
+    margin: 20px; 
+}    
 
