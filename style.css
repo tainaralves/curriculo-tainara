@@ -53,7 +53,7 @@ main {
     color: #460C68;
     font-family: 'Inter', sans-serif;
     padding: 4% 8%;
-
+    line-height: 20px;
 }
 
 .apresentacao-conteudo {
@@ -110,7 +110,8 @@ main {
 }
 
 .foto-sobre-mim {
-    width: 540px;
+    width: 550px;
+    height: 420px;
     box-shadow: 1px 1px 16px #7F167F;
 }
 
@@ -146,16 +147,16 @@ main {
     box-shadow: 1px 1px 16px #7F167F;
     padding: 16px;
     border-radius: 8px;
-    width: 600px;
-    height: 110px;
+    width: 620px;
+    height: 125px;
     margin: 20px;
 }
 
 .container-icones {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100px;
+    width: 90px;
+    height: 90px;
 }
 
 footer {
@@ -172,4 +173,8 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 40px;
+}
+
+.informacoes-contato {
+    color: #F6F6F6;
 }
