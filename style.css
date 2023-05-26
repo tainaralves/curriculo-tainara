@@ -19,31 +19,29 @@ body {
     left: 0;
     right: 0;
     background-image: linear-gradient(90deg, #460C68, #7F167F);
-    color: #F6F6F6;
+    text-align: center;
     z-index: 1;
 }
 
-.cabecalho-menu {
-    text-align: center;
-}
-
-.cabecalho-menu li {
+.cabecalho li {
     display: inline-block;
     margin: 16px 10px;
 }
 
-.cabecalho-menu li:not(:last-child):after {
+.cabecalho li:not(:last-child):after {
     content: "•";
+    color: #F6F6F6;
     margin-left: 24px;
 }
 
-.cabecalho-menu li a {
+.cabecalho li a {
     text-decoration: none;
     font-family: 'Inter';
     font-weight: 400;
+    color: #F6F6F6;
 }
 
-.cabecalho-menu li a:hover {
+.cabecalho li a:hover {
     color: #F56EB3;
 }
 

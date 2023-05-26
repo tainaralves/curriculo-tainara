@@ -12,16 +12,29 @@
 
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho-menu">
+        <nav>
             <ul>
-                <li><a class="cabecalho-menu-link">sobre mim</a></li>
-                <li><a class="cabecalho-menu-link">formação</a></li>
-                <li><a class="cabecalho-menu-link">experiências</a></li>
-                <li><a class="cabecalho-menu-link">habilidades</a></li>
-                <li><a class="cabecalho-menu-link">linguagens</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#linguagens">Linguagens</a></li>
             </ul>
         </nav>
     </header>
+    <img class="icone-menu" src="/assets/menu.png" width="42px" height="50px">
+    <div id="menu-mobile" class="menu-mobile display-menu">
+        <img id="menu-exit" class="icone-exit" src="/assets/exit.png" height="48px" width="50px">
+        <div class="nav-mobile">
+            <ul>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#linguagens">Linguagens</a></li>
+            </ul>
+        </div>
+    </div>
     <section class="apresentacao-conteudo">
         <div class="apresentacao-pessoa">
             <h1>Tainara Alves</h1>
@@ -43,7 +56,7 @@
         </div>
     </section>
     <main>
-        <div class="sobre-mim">
+        <div class="sobre-mim" id="sobre-mim">
             <div>
                 <img src="/assets/mesa-de-trabalho.png"
                     alt="Mesa com um computador, celular, planta, garrafa e uma vista com janela"
@@ -65,7 +78,7 @@
             </div>
         </div>
         <div>
-            <h3 class="titulo">Formação</h3>
+            <h3 class="titulo" id="formacao">Formação</h3>
             <div class="container">
                 <p class="container-apresentacao"><span class="negrito">Trinus/Alura</span><br>
                     Trilha Tech Edição Delas<br>
@@ -89,7 +102,7 @@
             </div>
         </div>
         <div>
-            <h3 class="titulo">Experiências</h3>
+            <h3 class="titulo" id="experiencias">Experiências</h3>
             <div class="container">
                 <p class="container-apresentacao"><span class="negrito">Universidade Estácio</span><br>
                     • 02/2020 até o momento<br>
@@ -116,7 +129,7 @@
             </div>
         </div>
         <div>
-            <h3 class="titulo">Habilidades</h3>
+            <h3 class="titulo" id="habilidades">Habilidades</h3>
             <div class="container">
                 <p class="container-apresentacao">
                     • Perfil analítico, colaborativo e comunicativo.<br>
@@ -130,7 +143,7 @@
             </div>
         </div>
         <div>
-            <h3 class="titulo">Linguagens</h3>
+            <h3 class="titulo" id="linguagens">Linguagens</h3>
             <div class="container">
                 <div class="container-apresentacao">
                     <div class="container-icones">
