@@ -20,7 +20,7 @@ body {
     right: 0;
     background-image: linear-gradient(90deg, #460C68, #7F167F);
     text-align: center;
-    z-index: 1;
+    z-index: 1;    
 }
 
 .cabecalho li {
@@ -251,15 +251,26 @@ footer a:hover {
         display: none;
     }
 
+    main {
+        padding: 20px 0;
+    }
+
+    main div {
+        width: 600px;
+        padding: 15px;
+    }
+
     .foto-sobre-mim {
         display: none;
     }
 
     .apresentacao-conteudo {
-       display: flex;
-       flex-direction: column-reverse;
-       height: auto;
-       margin: 0%;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        margin: 0%;
+        width: auto;
+       padding-bottom: 20px;
     }
   
     .apresentacao-pessoa h1 {
