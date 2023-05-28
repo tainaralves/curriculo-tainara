@@ -150,8 +150,10 @@ main {
 .container-icones {
     display: flex;
     justify-content: space-between;
+}
+
+.container-icones img {
     width: 90px;
-    height: 90px;
 }
 
 footer {
@@ -307,9 +309,8 @@ footer a:hover {
       margin: 10px 0;
     }
 
-    .container-icones {
-        width: 60px;
-        height: 60px;
+    .container-icones img {
+        width: 70px;
     }
 
     .icone-menu {
