@@ -177,7 +177,9 @@ main div {
 }
 
 .sobre-mim {
-   position: relative; 
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .foto-sobre-mim {
@@ -189,11 +191,9 @@ main div {
 
 .sobre-mim-apresentacao {
     display: inline-block; 
-    width: 489px;
-    vertical-align: top;
-    position: absolute;
     right: 0;
     top: 48px;
+    line-height: 18px;
 }
 
 .titulo {
@@ -216,7 +216,8 @@ main div {
     width: 45%;
     border-radius: border-box;
     vertical-align: top;
-    height: 125px;
+    line-height: 19px;
+    height: 130px;
     margin: 2.3%; 
 }
 
