@@ -221,6 +221,14 @@ main div {
     margin: 2.3%; 
 }
 
+.container-icones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .container-icones img {
     width: 80px;
 }
