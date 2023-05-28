@@ -153,7 +153,7 @@ main {
 }
 
 .container-icones img {
-    width: 90px;
+    width: 100px;
 }
 
 footer {
@@ -310,7 +310,7 @@ footer a:hover {
     }
 
     .container-icones img {
-        width: 70px;
+        width: 50px;
     }
 
     .icone-menu {
