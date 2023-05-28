@@ -14,13 +14,19 @@ body {
 }
 
 .cabecalho {
-    height: 60px;
-    position: fixed;
+    height: 43px;
+    position: absolute;
     left: 0;
     right: 0;
+    top: 33px;
     background-image: linear-gradient(90deg, #460C68, #7F167F);
-    text-align: center;
+    color: #F6F6F6;
     z-index: 1;    
+}
+
+.cabecalho nav {
+    text-align: center;
+    position: relative;
 }
 
 .cabecalho li {
@@ -30,13 +36,13 @@ body {
 
 .cabecalho li:not(:last-child):after {
     content: "•";
-    color: #F6F6F6;
     margin-left: 24px;
 }
 
 .cabecalho li a {
     text-decoration: none;
     color: #F6F6F6;
+    transition: 0.3s color;
 }
 
 .cabecalho li a:hover {
