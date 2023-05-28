@@ -137,10 +137,6 @@ body {
     margin-top: 30px;
 }
 
-.apresentacao-contato img:hover {
-    transform: scale(1.3);
-}
-
 .apresentacao-pessoa h1 {
     font-size: 4rem;
     margin-top: 64px;
@@ -152,6 +148,10 @@ body {
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 700;
+}
+
+.apresentacao-contato img:hover {
+    transform: scale(1.3);
 }
 
 .foto-tainara {
@@ -297,10 +297,6 @@ footer a:hover {
       padding-left: 0;
       margin-top: 24px;
       max-width: none;
-    }
-  
-    .container {
-      flex-direction: column;
     }
   
     .container-apresentacao {
