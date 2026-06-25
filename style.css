@@ -189,6 +189,10 @@ main div {
     box-shadow: 1px 1px 16px #7F167F; 
 }
 
+p {
+    margin-bottom: 16px;
+}
+
 .sobre-mim-apresentacao {
     display: inline-block; 
     right: 0;
